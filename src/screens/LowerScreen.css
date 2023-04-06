@@ -1,0 +1,12 @@
+.Bottom
+{
+    position: fixed;
+}
+
+.Lower__Screen
+{
+    position: fixed;
+    right:5px;
+    bottom: 0px;
+    color: #fff;
+}

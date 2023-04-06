@@ -1,0 +1,131 @@
+.LoginScreen
+{
+    position: relative;
+    height:100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/6973a9ea-02b2-4de9-9006-d7d224c9b75d/IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg")
+    center no-repeat;
+    background-size: cover;
+}
+
+.LoginScreen__background
+{
+
+}
+
+.LoginScreen__gradient
+{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4) ;
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8)100%
+    );
+
+}
+
+.LoginScreen__logo
+{
+    position: fixed;
+    left: 0;
+    width: 120px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+    top: 20px;
+}
+
+
+.LoginScreen__button
+{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.LoginScreen__body
+{
+    position: absolute;
+    top:30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color:#fff;
+    padding: 20px;
+}
+
+.LoginScreen__body > h1
+{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+.LoginScreen__body > p
+{
+    margin: 1rem 0 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+.LoginScreen__body > p1
+{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.LoginScreen__getStarted>form>input
+{
+    padding: 10px;
+    outline-width: 0;
+    height: 30;
+    width: 30%;
+    border: 2px solid;
+    max-width: 600px;
+    padding:16px 20px;
+    border-radius: 0.25rem;
+    color: #fff;
+    background: transparent;
+}
+
+.GetStarted__button
+{
+    padding:16px 20px;
+    font-size: 1rem;
+    color:#fff;
+    background-color: #e50914;
+    border:none;
+    border-radius: 0.25rem;
+    margin-left: 0.6rem;
+}
