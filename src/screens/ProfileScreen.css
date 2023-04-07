@@ -1,9 +1,14 @@
+*
+{
+    background-color: #111;
+}
 
 .ProfileScreen
 {
-   height: 100vh;
+    position: relative;
+    margin-top: 35px;
+   height: 100%;
    color:#fff;
-
 }
 
 .ProfileScreen__body > h1
@@ -17,11 +22,14 @@
 .ProfileScreen__body{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    left: 0;
+    right:0;
     padding-top: 8%;
     max-width: 800px;
+    position: fixed;
 }
 
 .ProfileScreen__info
@@ -41,6 +49,7 @@
     color:#fff;
     margin-left: 25px;
     flex: 1;
+    width: 100%;
 }
 
 .ProfileScreen__details > h2
@@ -80,6 +89,7 @@
 
 .Subscription__Netflix
 {
+    position: relative;
     margin-top:20px;
     width: 100%;
     display: flex;
@@ -91,16 +101,17 @@
 .Basic__Netflix
 {
     margin-top: 7px;
+    margin-right: 8px;
 }
 
 .para1
 {
     margin-top: 7px;
+    margin-right: 8px;
 }
 
 .Button__Netflix
 {
-    position: relative;
     right: 20px;
     padding: 10px 20px;
     font-size: 1rem;
@@ -110,4 +121,5 @@
     border: none;
     cursor: pointer;
     border-radius: 0.25rem;
+    margin-right: 8px;
 }
