@@ -1,10 +1,10 @@
-*
-{
-    background-color: #111;
-}
-
+body {
+    background-color: black !important;
+  }
+  
 .ProfileScreen
 {
+    background-color: #fff; 
     position: relative;
     margin-top: 35px;
    height: 100%;
